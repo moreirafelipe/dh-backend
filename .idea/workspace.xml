@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f4c2983-e3ee-4465-922c-0aadb7462ded" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/exercicio-compras.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/model/Direccion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/model/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/model/Tarjeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/service/ICompraService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/service/impl/AlmacenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/service/impl/CompraService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/service/impl/EnvioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/ejercicio-compras/com/dh/ecommerce/service/impl/PagoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/model/Cartao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/model/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/service/ICompraService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/service/impl/ArmazemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/service/impl/CompraService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/service/impl/EnvioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/out/production/exercicio-compras/com/dh/ecommerce/service/impl/PgtoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/model/Cartao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/model/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/model/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/service/ICompraService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/service/impl/ArmazemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/service/impl/CompraService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/service/impl/EnvioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/exercicio-compras/src/com/dh/ecommerce/service/impl/PgtoService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zgNgnZbGuZkwbD8qJj9REnm5JR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f4c2983-e3ee-4465-922c-0aadb7462ded" name="Changes" comment="" />
+      <created>1634565887674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634565887674</updated>
+      <workItem from="1634565890705" duration="148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

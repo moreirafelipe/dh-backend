@@ -2,6 +2,8 @@ public class Cartao {
 
     private String numero;
     private String banco;
+    private String conta;
+
 
     public Cartao(String numero, String banco) {
         this.numero = numero;

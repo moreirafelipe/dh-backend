@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2021-10-19T18:18:53.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="jGWPG5yiuHUkpv3IdnXi" version="15.5.5" type="github">
+  <diagram id="ATZofrC0FP9jJyXMx9D0" name="Page-1">
+    <mxGraphModel dx="716" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OzavvVWusO-42MRsuHtR-1" value="&lt;&lt;abstract&gt;&gt;&#xa;Cardapio" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="210" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-2" value="+ nomeCardapio: String&#xa;+ precoBase: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-1">
+          <mxGeometry y="40" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-1">
+          <mxGeometry y="80" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-4" value="#montar()&#xa;#calcularPrecoVenda(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-1">
+          <mxGeometry y="88" width="210" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-5" value="Cardapioadulto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="210" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-5">
+          <mxGeometry y="30" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-8" value="+ montar()&#xa;+ calcularPrecoVenda(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-5">
+          <mxGeometry y="38" width="210" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-9" value="CardapioInfantil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-22" value="+ adicional: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-9">
+          <mxGeometry y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-9">
+          <mxGeometry y="70" width="210" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-12" value="+ CardapioInfantil(adicional)&#xa;+ montar()&#xa;+ calcularPrecoVenda(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-9">
+          <mxGeometry y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-13" value="CardapioVeg" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="210" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-13">
+          <mxGeometry y="40" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OzavvVWusO-42MRsuHtR-16" value="+ montar()&#xa;+ calcularPrecoVenda(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OzavvVWusO-42MRsuHtR-13">
+          <mxGeometry y="48" width="210" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

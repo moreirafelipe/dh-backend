@@ -13,11 +13,11 @@ public class FachadaBusca implements IBuscar{
 
     public void buscar(String origem, String destino, LocalDate dataIda, LocalDate dataVolta) {
 
-        Hotel hotel1 = new Hotel(dataIda, dataVolta, destino);
-        Voo voo1 = new Voo(dataIda, dataVolta, origem, destino);
+        Hotel hotelConsulta = new Hotel(dataIda, dataVolta, destino);
+        Voo vooConsulta = new Voo(dataIda, dataVolta, origem, destino);
 
-        hotelService.buscar(hotel1);
-        vooService.buscar(voo1);
+        hotelService.buscar(hotelConsulta);
+        vooService.buscar(vooConsulta);
 
     }
 }

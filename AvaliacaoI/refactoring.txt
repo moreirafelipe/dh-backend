@@ -1,7 +1,0 @@
-Retatoring:
-
-PrepareStatement
-Set auto-commit false
-	try com commit
-	catch com rollback
-try-with-resources

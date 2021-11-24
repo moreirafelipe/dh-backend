@@ -1,7 +1,0 @@
-Paciente
-Endereço
-Dentista
-
-Não faz consulta
-
-Entrega: até 30/11

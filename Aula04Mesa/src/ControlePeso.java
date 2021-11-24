@@ -6,7 +6,7 @@ public class ControlePeso extends Controladora {
         if(artigo.getPeso() >= 1200 && artigo.getPeso() <= 1300) {
             System.out.println("Peso aceito!");
             artigo.setChecagens(true);
-        } else {
+        } else if (this.getGerenciadorSeguinte() != null){
             System.out.println("Peso não aceito!");
             artigo.setChecagens(false);
         }

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0a5d724-c149-4eb6-8aec-77939d7f09e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Aula05Mesa/Aula05Mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05ProxyGuiado/Aula05ProxyGuiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05ProxyPratica/Aula05ProxyPratica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05ProxyPratica/src/model/Documento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05Proxy_Pattern/Proxy Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07/ComidaFlyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Guiado/Aula07Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Guiado/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Guiado/src/dto/Computador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Guiado/src/factory/ComputadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Pratica/Aula07Pratica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Guiado/Aula08Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Guiado/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Guiado/src/PessoaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/Aula08Mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/src/dto/Arvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula08Mesa/src/factory/ArvoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaFlyweight/Aula09MesaFlyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaFlyweight/src/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaFlyweight/src/TrianguloFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaFlyweight/src/TrianguloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/Aula09MesaRoupas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/src/Roupa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/src/RoupaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula09MesaRoupas/src/RoupaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Animais/Aula10Animais.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Animais/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLog/Aula10ExemploLog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLog/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLog/src/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLog/src/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLogAntigo/Aula10ExemploLogAntigo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLogAntigo/src/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLogAntigo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLogAntigo/src/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10ExemploLogAntigo/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/Aula10Mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/src/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10Mesa/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula11Exemplo/Aula11Exemplo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula11Exemplo/src/TestLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12IntegradoraMesa/Aula12IntegradoraMesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12IntegradoraMesa/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12IntegradoraMesa/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/Aula12MavenDaoExemplo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula12MavenDaoExemplo/academia/academia/academia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DAO/Aula13DAO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DAO/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DAO/src/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/Aula13DaoMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/src/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/src/AlunoDAOEmMemoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/src/AlunoDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/src/AlunoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13DaoMaven/src/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/java/Model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/java/Service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/java/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/java/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/java/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula13GerEstoque/src/test/java/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula14Guiado/Aula14Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula14Guiado/src/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula14Guiado/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Filme/src/main/java/com/example/aula23filme/DTO/FilmeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Filme/src/main/java/com/example/aula23filme/controller/FilmeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Filme/src/test/java/com/example/aula23filme/EntidadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/dto/EnderecoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/dto/PacienteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/repository/impl/EnderecoRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/repository/impl/PacienteRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/service/OdontoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula23GRestClinicaOdonto/src/main/java/com/example/aula23grestclinicaodonto/service/impl/PacienteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula28Produto/src/main/java/com/example/aula28produto/persistence/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula28Produto/src/main/java/com/example/aula28produto/persistence/entities/ProdutoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula28Produto/src/main/java/com/example/aula28produto/persistence/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula28Produto/src/main/java/com/example/aula28produto/persistence/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula28Produto/src/main/java/com/example/aula28produto/persistence/service/impl/ProdutoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula29Professor/src/main/java/com/example/aula29professor/entities/AlunoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/Aula29Professor/src/main/java/com/example/aula29professor/entities/ProfessorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula23Rest/Aula23RestClinicaOdonto/testemaven/src/main/java/com/example/testemaven/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Avaliacao1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Avaliacao1/src/main/java/dao/impl/DentistaDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Avaliacao1/src/main/java/model/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Avaliacao1/src/main/java/service/DentistaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/dao/impl/EnderecoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/dao/impl/PacienteDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/java/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AvaliacaoI/src/test/java/PacienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsultorioDentista/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsultorioDentista/src/main/java/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsultorioDentistaProfessor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoupaFactory/RoupaFactory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaUsuarios/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaUsuarios/TabelaUsuarios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../academia (1)/academia/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../academia (1)/academia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../academia (1)/academia/academia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apache-log4j-2.14.1-bin/apache-log4j-2.14.1-bin/apache-log4j-2.14.1-bin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/clinica_odonto/src/main/java/com/example/clinica_odonto/controller/DentistaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/clinica_odonto/src/main/java/com/example/clinica_odonto/model/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odonto/clinica_odonto/src/main/java/com/example/clinica_odonto/service/impl/DentistaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odontologica_2/clinica_odontologica_2/src/main/java/com/example/clinica_odontologica_2/controller/ConsultaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica_odontologica_2/clinica_odontologica_2/src/main/java/com/example/clinica_odontologica_2/service/impl/ConsultaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio-proxy (1)/exercicio-proxy (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio-proxy (1)/exercicio-proxy/exercicio-proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/Aula20ClinicaOdonto/src/main/java/com/example/aula20clinicaodonto/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/Aula20ClinicaOdonto/src/main/java/com/example/aula20clinicaodonto/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/Aula20ClinicaOdonto/src/main/java/com/example/aula20clinicaodonto/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/Aula20ClinicaOdonto/src/main/java/com/example/aula20clinicaodonto/service/OdontoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/Aula20ClinicaOdonto/src/main/java/com/example/aula20clinicaodonto/service/impl/PacienteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/controller/DentistaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/model/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/service/DentistaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/service/impl/DentistaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/java/com/example/clinica/service/impl/PacienteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/clinica/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/paciente2/src/main/java/com/example/paciente2/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paciente/paciente2/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer/src/main/java/controller/TrainerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer/src/main/java/model/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer/src/main/java/service/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer/src/main/java/service/impl/TrainerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer2/src/main/java/com/example/trainer2/controller/TrainerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer2/src/main/java/com/example/trainer2/model/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer2/src/main/java/com/example/trainer2/service/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trainer2/src/main/java/com/example/trainer2/service/impl/TrainerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/mesa.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04/mesa.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04Mesa/Aula04Mesa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04Mesa/Aula04Mesa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04Mesa/out/production/Aula04Mesa/ControleLote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04Mesa/out/production/Aula04Mesa/ControleLote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04Mesa/out/production/Aula04Mesa/ControlePeso.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04Mesa/out/production/Aula04Mesa/ControlePeso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04Mesa/src/ControleLote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04Mesa/src/ControleLote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04Mesa/src/ControlePeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula04Mesa/src/ControlePeso.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21LE3ge8mo4VjN31UIjwH3gsyWx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0a5d724-c149-4eb6-8aec-77939d7f09e8" name="Changes" comment="" />
+      <created>1637711769646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637711769646</updated>
+      <workItem from="1637711770915" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

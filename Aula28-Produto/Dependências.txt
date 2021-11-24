@@ -1,0 +1,5 @@
+Spring boot dev tools
+Spring boot web
+Lombok
+SQL H2
+SQL JPA

@@ -1,0 +1,26 @@
+version: '3'
+services:
+  bananagrupo:
+    image: bananaimagem
+    container_name: bananacontainer
+    build:
+      context: .
+    #volumes:
+    #  - .\site:/usr/share/nginx/htm
+    #volumes:
+    #  - site:/usr/share/nginx/htm
+    ports:
+      - "8001:8080"
+    networks:
+      - bananarede
+
+networks:
+  bananarede:
+    driver: bridge
+
+    #volumes:
+    #  site:
+
+    # docker-compose up -d
+    #mvn install
+    #./mvnw clean package -DskipTests

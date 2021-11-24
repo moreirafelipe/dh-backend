@@ -1,0 +1,7 @@
+Dependências
+
+Springweb
+Devtools
+Lombok
+H2
+Jpa

@@ -2,7 +2,7 @@
 
 
 
-Repositório de atividades da formação **Certified Tech Developer** **- Digital House**
+### Repositório de atividades da formação **Certified Tech Developer** **- Digital House**
 
 
 

@@ -1,46 +1,47 @@
-# Critérios para a primeira entrega do trabalho
+# Criteria for the first delivery of the work
 
-# Integrador de Back End I
-
-
-
-### ⌚ Gerenciamento do tempo
-
-Durante as duas horas de aula, no dia da entrega, você pode prosseguir com essa primeira entrega; 
-
-Você receberá um aviso do professor dez minutos antes do término do tempo estabelecido para que possa realizar o upload do trabalho integrador por um formulário que o professor disponibilizará através do Zoom.
-
-Lembre-se que o trabalho integrador é individual. Nesta primeira entrega você deverá enviar:
+# Back End Integrator I
 
 
 
-### 📝 Orientações
+### ⌚ Time management
 
-O código desenvolvido em Java, exportado na IDE para um arquivo .zip. Nele deve conter o projeto da clínica odontológica, com os módulos de pacientes e dentistas. O nome do arquivo deverá ter o seguinte formato: **Nome-Sobrenome-Turma.zip.**
+During the two hours of class on the day of delivery, you can proceed with this first delivery;
 
+You will receive a notice from the teacher ten minutes before the end of the established time so that you can upload the integrative work through a form that the teacher will make available through Zoom.
 
-
-### ✅ Tópicos avaliados
-
-- Funcionalidades: módulo de pacientes e módulo de dentistas; 
--  Organização do projeto e das configurações; 
-- Classes de negócio; 
-- Classes de acesso a dados utilizando o ORM;
-- Classes de serviço; 
-- Classes de controllers; 
-- Utilização do MVC; 
-- Uso de boas práticas: 
-
-​	○ Registro de log das exceções com o Log4J; 
-
-​	○ Testes unitários utilizando o JUnit.
+Remember that integrative work is individual. In this first delivery you must send:
 
 
 
-### 😎 Boas práticas
+### 📝 Guidelines
 
-- Utilizar o MAVEN para gerenciamento de dependências de bibliotecas e frameworks;
-- Implementar uma arquitetura de aplicação empresarial em camadas e injeção de dependências; 
-- Utilizar o padrão MVC proporcionado pelo Spring Framework;
-- Utilizar um ORM para acesso a dados e persistência;
-- Manter o registro de log da aplicação com o Log4J para facilitar a resolução de problemas (troubleshooting) em caso de erros;  Sempre manter a prática de realizar testes unitários visando assegurar a qualidade do software.
+The code developed in Java, exported in the IDE to a .zip file. It should contain the project of the dental clinic, with the patient and dentist modules. The file name must have the following format: **Name-Lastname-Class.zip.**
+
+
+
+### ✅ Topics rated
+
+- Features: patients module and dentists module;
+
+- Organization of the project and configurations;
+- Business classes;
+- Data access classes using ORM;
+- Classes of service;
+- Controller classes;
+- Use of MVC;
+- Use of good practices:
+
+   ○ Logging of exceptions with Log4J;
+
+   ○ Unit tests using JUnit.
+
+
+
+### 😎 Build a clean code
+
+- Use MAVEN to manage dependencies on libraries and frameworks;
+- Implement a layered enterprise application architecture and dependency injection;
+- Use the MVC pattern provided by the Spring Framework;
+- Use an ORM for data access and persistence;
+- Keep the application log record with Log4J to facilitate troubleshooting (troubleshooting) in case of errors; Always maintain the practice of performing unit tests to ensure the quality of the software.

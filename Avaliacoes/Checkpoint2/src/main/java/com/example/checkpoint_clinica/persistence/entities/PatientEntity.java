@@ -28,7 +28,4 @@ public class PatientEntity {
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
     @JoinColumn(name = "address_id")
     private AddressEntity address;
-
-//    @OneToMany(mappedBy = "patients", fetch = FetchType.LAZY)
-//    private Set<AddressEntity> adresses = new HashSet<>();
 }

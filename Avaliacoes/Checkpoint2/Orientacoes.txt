@@ -1,0 +1,15 @@
+Usado no mercado
+
+Entity: 
+Model: Cópia da entidade -> processa os dados
+Controller
+Repository -> usa JPA
+Service -> Converte model para entidade
+
+Usaremos na DH Checkpoint 2
+
+Entity: 
+Model: Cópia da entidade -> processa os dados
+Controller
+Repository -> usa JPA
+Service -> Converte model para entidade

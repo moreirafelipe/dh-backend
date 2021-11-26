@@ -12,7 +12,7 @@ import javax.persistence.*;
 public class AlunoEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE) //Usado neste caso apenas porque estamos gerando a tabela a partir do código
     @Column(name = "id")
     private Integer id;
 

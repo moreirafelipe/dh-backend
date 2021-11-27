@@ -1,0 +1,290 @@
+{
+	"info": {
+		"_postman_id": "e2de28a3-cd03-4cce-8caa-186d0f69ea91",
+		"name": "dh-backend-checkpoint2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POSTDENTISTS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Moreira\",\r\n    \"email\": \"felipe@gmail.com\",\r\n    \"admissionDate\": \"2021-11-27T22:00:00.511Z\",\r\n    \"major\": \"Ortodontist\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dentists/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dentists",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETALLDENTISTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/dentists",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dentists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETDENTISTBYID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dentists/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dentists",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATEDENTIST",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Moraes\",\r\n    \"admissionDate\": \"2021-11-27T22:00:00.511+00:00\",\r\n    \"email\": \"felipemoraes@gmail.com\",\r\n    \"major\": \"Ortodontist\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dentists",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dentists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETEDENTISTBYID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dentists/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dentists",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POSTPATIENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Moreira\",\r\n    \"email\": \"felicio@gmail.com\",\r\n    \"registeringDate\": \"2021-11-27T22:00:00.511Z\",\r\n    \"address\":{\r\n        \"state\": \"Rio de Janeiro\",\r\n        \"city\": \"São José dos rios\",\r\n        \"neighborhood\": \"Jardim de Rios\",\r\n        \"street\": \"Quatro\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patients/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patients",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETALLPATIENTS",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETPATIENTSBYID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patients/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATEPATIENT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Moraes\",\r\n    \"registeringDate\": \"2021-11-27T22:00:00.511+00:00\",\r\n    \"email\": \"felipemoraes@gmail.com\",\r\n    \"address\": {\r\n        \"id\": 1,\r\n        \"state\": \"São Paulo\",\r\n        \"city\": \"São José dos Paulos\",\r\n        \"neighborhood\": \"Jardim de Paulos\",\r\n        \"street\": \"Cinco\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/patients/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patients",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

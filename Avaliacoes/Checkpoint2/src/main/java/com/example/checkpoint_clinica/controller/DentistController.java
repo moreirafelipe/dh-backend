@@ -81,7 +81,7 @@ public class DentistController{
 
         dentistService.deleteById(id);
 
-        logger.info("Register updated successfully!");
+        logger.info("Register deleted successfully!");
         ResponseEntity<String> response = ResponseEntity.ok("Dentist successfully deleted!");
         return response;
     }

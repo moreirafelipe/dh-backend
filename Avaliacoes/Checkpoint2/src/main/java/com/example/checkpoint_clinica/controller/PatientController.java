@@ -11,10 +11,13 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/patients")
 public class PatientController {
+
+    private static final Logger logger = Logger.getLogger(String.valueOf(PatientController.class));
 
     @Autowired
     private PatientServiceImpl patientService;
@@ -27,9 +30,12 @@ public class PatientController {
 
         List<PatientEntity> patientEntity = patientService.findAll();
 
-        if(patientEntity.isEmpty())
+        if(patientEntity.isEmpty()) {
+            logger.warning("There aren't patients registered");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There aren't patients registered");
+        }
 
+        logger.info("Registers recovered successfully!");
         return ResponseEntity.ok(patientEntity);
     }
 
@@ -38,9 +44,12 @@ public class PatientController {
 
         Optional<PatientEntity> patientEntity = patientService.findById(id);
 
-        if(patientEntity.isEmpty())
+        if(patientEntity.isEmpty()) {
+            logger.warning("There there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There there's no patient registered with this ID");
+        }
 
+        logger.info("Register recovered successfully!");
         return ResponseEntity.ok(patientEntity);
     }
 
@@ -49,9 +58,12 @@ public class PatientController {
 
         Optional<PatientEntity> patientEntity = patientService.findById(patient.getId());
 
-        if(patientEntity.isEmpty())
+        if(patientEntity.isEmpty()) {
+            logger.warning("Couldn't update because there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't update because there's no patient registered with this ID");
+        }
 
+        logger.info("Register updated successfully!");
         return ResponseEntity.ok(patientService.update(patient));
     }
 
@@ -60,10 +72,14 @@ public class PatientController {
 
         Optional<PatientEntity> patientEntity = patientService.findById(id);
 
-        if(patientEntity.isEmpty())
+        if(patientEntity.isEmpty()){
+            logger.warning("Couldn't delete because there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't delete because there's no patient registered with this ID");
+        }
 
         patientService.deleteById(id);
+
+        logger.info("Register deleted successfully!");
         ResponseEntity<String> response = ResponseEntity.ok("Patient successfully deleted!");
 
         return response;

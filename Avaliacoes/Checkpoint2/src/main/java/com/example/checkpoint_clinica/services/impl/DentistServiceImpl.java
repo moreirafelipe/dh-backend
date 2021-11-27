@@ -17,8 +17,9 @@ public class DentistServiceImpl implements IClinicService<DentistEntity> {
     private IDentistRepository dentistRepository;
 
     @Override
-    public DentistEntity saveAndFlush(DentistEntity dentist) {
-        return dentistRepository.saveAndFlush(dentist);
+    public ResponseEntity<String> saveAndFlush(DentistEntity dentist) {
+        dentistRepository.saveAndFlush(dentist);
+        return ResponseEntity.ok("Dentist successfully registered");
     }
 
     @Override
@@ -44,11 +45,15 @@ public class DentistServiceImpl implements IClinicService<DentistEntity> {
         if(dentist.getName() != null) {
             dentistMapped.setName(dentist.getName());
         }
-
         if(dentist.getLastname()!= null) {
             dentistMapped.setLastname(dentist.getLastname());
         }
-
+        if (dentist.getAdmissionDate() != null) {
+            dentistMapped.setAdmissionDate(dentist.getAdmissionDate());
+        }
+        if (dentist.getEmail() != null) {
+            dentistMapped.setEmail(dentist.getEmail());
+        }
         if(dentist.getMajor() != null) {
             dentistMapped.setMajor(dentist.getMajor());
         }

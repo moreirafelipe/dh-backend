@@ -20,8 +20,9 @@ public class AddressService implements IClinicService<AddressEntity> {
 
 
     @Override
-    public AddressEntity saveAndFlush(AddressEntity addressEntity) {
-        return addressRepository.saveAndFlush(addressEntity);
+    public ResponseEntity<String> saveAndFlush(AddressEntity addressEntity) {
+        addressRepository.saveAndFlush(addressEntity);
+        return ResponseEntity.ok("Dentist successfully registered");
     }
 
     @Override

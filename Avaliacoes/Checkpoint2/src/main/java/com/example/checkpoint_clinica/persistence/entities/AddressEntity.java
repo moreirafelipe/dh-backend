@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 
 @Getter
 @Setter
@@ -17,15 +18,19 @@ public class AddressEntity {
     @Column(name="id")
     private Integer id;
 
+    @NotEmpty(message="The state field is required")
     @Column(name="state")
     private String state;
 
+    @NotEmpty(message="The city field is required")
     @Column(name="city")
     private String city;
 
+    @NotEmpty(message="The neighborhood field is required")
     @Column(name="neighborhood")
     private String neighborhood;
 
+    @NotEmpty(message="The street field is required")
     @Column(name="street")
     private String street;
 }

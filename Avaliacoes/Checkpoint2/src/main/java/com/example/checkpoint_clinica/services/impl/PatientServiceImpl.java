@@ -27,9 +27,11 @@ public class PatientServiceImpl implements IClinicService<PatientEntity> {
     }
 
     @Override
-    public PatientEntity saveAndFlush(PatientEntity patientEntity) {
+    public ResponseEntity<String> saveAndFlush(PatientEntity patientEntity) {
         addressRepository.saveAndFlush(patientEntity.getAddress());
-        return patientRepository.saveAndFlush(patientEntity);
+        patientRepository.saveAndFlush(patientEntity);
+
+        return ResponseEntity.ok("Patient successfully registered");
     }
 
     @Override
@@ -39,7 +41,7 @@ public class PatientServiceImpl implements IClinicService<PatientEntity> {
 
     @Override
     public Optional<PatientEntity> findById(Integer id) {
-        return Optional.of(patientRepository.findById(id).get());
+        return patientRepository.findById(id);
     }
 
     @Override
@@ -56,22 +58,26 @@ public class PatientServiceImpl implements IClinicService<PatientEntity> {
         if (patient.getName() != null) {
             patientMapped.setName(patient.getName());
         }
-
         if (patient.getLastname() != null) {
             patientMapped.setLastname(patient.getLastname());
         }
-
-
+        if (patient.getRegisteringDate() != null) {
+            patientMapped.setRegisteringDate(patient.getRegisteringDate());
+        }
+        if (patient.getEmail() != null) {
+            patientMapped.setEmail(patient.getEmail());
+        }
         if (patient.getAddress().getState() != null) {
             patientMapped.getAddress().setState(patient.getAddress().getState());
         }
-
         if (patient.getAddress().getCity() != null) {
             patientMapped.getAddress().setCity(patient.getAddress().getCity());
         }
-
-        if (patient.getAddress().getCity() != null) {
-            patientMapped.getAddress().setCity(patient.getAddress().getCity());
+        if (patient.getAddress().getNeighborhood() != null) {
+            patientMapped.getAddress().setNeighborhood(patient.getAddress().getNeighborhood());
+        }
+        if (patient.getAddress().getStreet() != null) {
+            patientMapped.getAddress().setStreet(patient.getAddress().getStreet());
         }
 
         return patientRepository.saveAndFlush(patientMapped);

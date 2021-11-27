@@ -1,47 +1,88 @@
-# Criteria for the first delivery of the work
-
-# Back End Integrator I
+# Spring Boot OdontoClinic Rest Api Service
 
 
 
-### ⌚ Time management
-
-During the two hours of class on the day of delivery, you can proceed with this first delivery;
-
-You will receive a notice from the teacher ten minutes before the end of the established time so that you can upload the integrative work through a form that the teacher will make available through Zoom.
-
-Remember that integrative work is individual. In this first delivery you must send:
+This is a simple Java / Maven / Spring Boot (version 2.5.6) application that provides the CRUD Rest Api Service with JSON entities validation  through Spring-Boot-Starter dependency and  **global \*@ExceptionHandler\* with the \*@ControllerAdvice\* annotation** . I hope this document helps you.
 
 
 
-### 📝 Guidelines
+## ▶️ How to Run
 
-The code developed in Java, exported in the IDE to a .zip file. It should contain the project of the dental clinic, with the patient and dentist modules. The file name must have the following format: **Name-Lastname-Class.zip.**
+- Clone this repository
+
+- Make sure you are using:
+
+  - Java SE 17
+
+  - JDK 17 (or higher)
+
+  - Maven 3.x
+
+    
+
+- Spring Boot (v. 2.5.6) dependencies:
+
+  - Spring web
+
+  - Spring boot dev tools
+
+  -  Lombok
+
+  - SQL Spring Data JPA
+
+  - SQL H2 Database
+
+    
+
+- To start the application, just run its main method
 
 
 
-### ✅ Topics rated
+### 🔧 Installing the Java SE and JDK 17
 
-- Features: patients module and dentists module;
+You can download and install one of the packages bellow according to your operational system:
 
-- Organization of the project and configurations;
+[**Oracle Java SE 17**](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+
+[**Oracle JDK 17**](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+
+[**OpenJDK 17**](https://jdk.java.net/17/)
+
+
+
+### 🔧 Installing the Apache Maven
+
+- Access the [**download and installation**](https://maven.apache.org/download.cgi) guide and follow its steps according your operating system.
+- After Maven installation, check the environment variable value e.g.
+
+```
+echo %JAVA_HOME% C:\Program Files\Java\jdk1.7.0_51
+```
+
+
+
+### 🌐 About the Api Rest Service
+
+This project intends to provide CRUD operations through Rest API service for a fictional odontology clinic. Basically, it counts on:
+
+- Patients module and dentists module;
+
 - Business classes;
 - Data access classes using ORM;
 - Classes of service;
 - Controller classes;
-- Use of MVC;
+- MVC layers;
 - Use of good practices:
 
    ○ Logging of exceptions with Log4J;
 
-   ○ Unit tests using JUnit.
 
 
 
-### 😎 Build a clean code
+### 😎 Clean code observed
 
-- Use MAVEN to manage dependencies on libraries and frameworks;
-- Implement a layered enterprise application architecture and dependency injection;
-- Use the MVC pattern provided by the Spring Framework;
-- Use an ORM for data access and persistence;
-- Keep the application log record with Log4J to facilitate troubleshooting (troubleshooting) in case of errors; Always maintain the practice of performing unit tests to ensure the quality of the software.
+- Used MAVEN to manage dependencies on libraries and frameworks;
+- Implemented a layered enterprise application architecture and dependency injection;
+- Used the MVC pattern provided by the Spring Framework;
+- Used an ORM for data access and persistence;
+- Kept the application log record with Log4J to facilitate troubleshooting (troubleshooting) in case of errors;

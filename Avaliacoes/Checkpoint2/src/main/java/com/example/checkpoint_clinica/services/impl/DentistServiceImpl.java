@@ -1,6 +1,5 @@
 package com.example.checkpoint_clinica.services.impl;
 
-import com.example.checkpoint_clinica.controller.DentistController;
 import com.example.checkpoint_clinica.persistence.entities.DentistEntity;
 import com.example.checkpoint_clinica.persistence.repository.IDentistRepository;
 import com.example.checkpoint_clinica.services.IClinicService;
@@ -9,13 +8,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 //Set API service layer
 @Service
 public class DentistServiceImpl implements IClinicService<DentistEntity> {
-
-    private static final Logger logger = Logger.getLogger(String.valueOf(DentistServiceImpl.class));
 
     //Set repository for persistence interface
     @Autowired

@@ -1,0 +1,1 @@
+db.getCollection('books').find({})

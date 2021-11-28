@@ -1,6 +1,7 @@
 package com.example.checkpoint_clinica.services.impl;
 
 
+import com.example.checkpoint_clinica.persistence.entities.DentistEntity;
 import com.example.checkpoint_clinica.persistence.entities.PatientEntity;
 import com.example.checkpoint_clinica.persistence.repository.IAddressRepository;
 import com.example.checkpoint_clinica.persistence.repository.IPatientRepository;

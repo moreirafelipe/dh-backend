@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Sil\",\r\n    \"email\": \"felipe@email.com\",\r\n    \"admissionDate\": \"2021-11-27T09:00:00.511Z\",\r\n    \"major\": \"Ortodontist\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Se\",\r\n    \"email\": \"felipe@email.com\",\r\n    \"admissionDate\": \"2021-11-27T09:00:00.511Z\",\r\n    \"major\": \"Ortodontist\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -72,7 +72,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/dentists/list/1",
+					"raw": "http://localhost:8080/dentists/list/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -81,7 +81,7 @@
 					"path": [
 						"dentists",
 						"list",
-						"1"
+						"3"
 					]
 				}
 			},
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Los Angeles\",\r\n    \"admissionDate\": \"2021-11-27T10:00:00.511+00:00\",\r\n    \"email\": \"losangeles@gmail.com.br\"\r\n}",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Los Angeles\",\r\n    \"admissionDate\": \"2021-11-27T10:00:00.511+00:00\",\r\n    \"email\": \"losangeles@gmail.com.br\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -131,7 +131,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/dentists/delete/5",
+					"raw": "http://localhost:8080/dentists/delete/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -140,7 +140,7 @@
 					"path": [
 						"dentists",
 						"delete",
-						"5"
+						"2"
 					]
 				}
 			},
@@ -225,7 +225,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/patients/list/3",
+					"raw": "http://localhost:8080/patients/list/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -234,7 +234,7 @@
 					"path": [
 						"patients",
 						"list",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -279,7 +279,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/patients/delete/1",
+					"raw": "http://localhost:8080/patients/delete/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -288,7 +288,7 @@
 					"path": [
 						"patients",
 						"delete",
-						"1"
+						"2"
 					]
 				}
 			},

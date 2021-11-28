@@ -1,5 +1,6 @@
 package com.example.checkpoint_clinica.services;
 
+import com.example.checkpoint_clinica.persistence.entities.DentistEntity;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

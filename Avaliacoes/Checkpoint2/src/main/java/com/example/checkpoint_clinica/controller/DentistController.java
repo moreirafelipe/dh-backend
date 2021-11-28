@@ -1,22 +1,27 @@
 package com.example.checkpoint_clinica.controller;
 
+import com.example.checkpoint_clinica.exceptionhandler.GlobalExceptionHandler;
+import com.example.checkpoint_clinica.exceptionhandler.IllegalDataException;
 import com.example.checkpoint_clinica.persistence.entities.DentistEntity;
 import com.example.checkpoint_clinica.services.impl.DentistServiceImpl;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
+
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 //Mapping paths
 @RestController
 @RequestMapping("/dentists")
 public class DentistController{
 
-    private static final Logger logger = Logger.getLogger(String.valueOf(DentistController.class));
+    private static final Logger logger = LogManager.getLogger(DentistController.class);
 
     @Autowired
     private DentistServiceImpl dentistService;
@@ -36,7 +41,7 @@ public class DentistController{
         //Setting 404 return
         List<DentistEntity> dentistEntity = dentistService.findAll();
         if(dentistEntity.isEmpty()){
-            logger.warning("There aren't dentists registered");
+            logger.error("There aren't dentists registered");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There aren't dentists registered");
         }
 
@@ -51,7 +56,7 @@ public class DentistController{
 
         //Setting 404 return
         if(dentistEntity.isEmpty()){
-            logger.warning("There there's no dentist registered with this ID");
+            logger.error("There there's no dentist registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There there's no dentist registered with this ID");
         }
 
@@ -67,14 +72,20 @@ public class DentistController{
 
         //Setting 404 return
         if(dentistEntity.isEmpty()){
-            logger.warning("Couldn't update because there's no dentist registered with this ID");
+            logger.error("Couldn't update because there's no dentist registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't update because there's no dentist registered with this ID");
         }
 
-        //Setting 200 Return
-        logger.info("Register updated successfully!");
-        return ResponseEntity.ok(dentistService.update(dentist));
-    }
+        try {
+            //Setting 200 Return
+            ResponseEntity response = ResponseEntity.ok(dentistService.update(dentist));
+            logger.info("Dentist updated successfully!");
+            return response;
+        } catch (Exception ex) {
+            logger.error("Incorrect data informed. Please, check the exception message and try again!");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
+        }
+   }
 
     //Setting DELETE
     @DeleteMapping("/delete/{id}")
@@ -83,7 +94,7 @@ public class DentistController{
 
         //Setting 404 return
         if(dentistEntity.isEmpty()) {
-            logger.warning("Couldn't delete because there's no dentist registered with this ID");
+            logger.error("Couldn't delete because there's no dentist registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't delete because there's no dentist registered with this ID");
         }
 

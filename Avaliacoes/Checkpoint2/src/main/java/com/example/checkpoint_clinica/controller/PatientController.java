@@ -2,6 +2,8 @@ package com.example.checkpoint_clinica.controller;
 
 import com.example.checkpoint_clinica.persistence.entities.PatientEntity;
 import com.example.checkpoint_clinica.services.impl.PatientServiceImpl;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,14 +12,13 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 //Mapping paths
 @RestController
 @RequestMapping("/patients")
 public class PatientController {
 
-    private static final Logger logger = Logger.getLogger(String.valueOf(PatientController.class));
+    private static final Logger logger = LogManager.getLogger(PatientController.class);
 
     @Autowired
     private PatientServiceImpl patientService;
@@ -38,7 +39,7 @@ public class PatientController {
 
         //Setting 404 return
         if(patientEntity.isEmpty()) {
-            logger.warning("There aren't patients registered");
+            logger.error("There aren't patients registered");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There aren't patients registered");
         }
 
@@ -54,7 +55,7 @@ public class PatientController {
 
         //Setting 404 return
         if(patientEntity.isEmpty()) {
-            logger.warning("There there's no patient registered with this ID");
+            logger.error("There there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("There there's no patient registered with this ID");
         }
 
@@ -70,13 +71,19 @@ public class PatientController {
 
         //Setting 404 return
         if(patientEntity.isEmpty()) {
-            logger.warning("Couldn't update because there's no patient registered with this ID");
+            logger.error("Couldn't update because there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't update because there's no patient registered with this ID");
         }
 
-        //Setting 200 Return
-        logger.info("Register updated successfully!");
-        return ResponseEntity.ok(patientService.update(patient));
+        try {
+            //Setting 200 Return
+            ResponseEntity response = ResponseEntity.ok(patientService.update(patient));
+            logger.info("Patient updated successfully!");
+            return response;
+        } catch (Exception ex) {
+            logger.error("Incorrect data informed. Please, check the exception message and try again!");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
+        }
     }
 
     @DeleteMapping("/delete/{id}")
@@ -86,7 +93,7 @@ public class PatientController {
 
         //Setting 404 return
         if(patientEntity.isEmpty()){
-            logger.warning("Couldn't delete because there's no patient registered with this ID");
+            logger.error("Couldn't delete because there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't delete because there's no patient registered with this ID");
         }
 

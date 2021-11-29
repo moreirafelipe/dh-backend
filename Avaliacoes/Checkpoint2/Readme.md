@@ -2,7 +2,7 @@
 
 
 
-This is a simple Java / Maven / Spring Boot (version 2.5.6) application that provides the CRUD Rest Api Service with JSON entities validation  through Spring-Boot-Starter dependency and  **global \*@ExceptionHandler\* with the \*@ControllerAdvice\* annotation** . you can use Postman to test the service.
+This is a simple Java / Maven / Spring Boot (version 2.5.6) application that provides appointments services between dentists and patients through Spring Boot JPA CRUD Rest Api operations with JSON entities validation  through Spring-Boot-Starter dependency and  **global \*@ExceptionHandler\* with the \*@ControllerAdvice\* annotation** . You can use Postman to test the service.
 
 
 
@@ -38,7 +38,7 @@ I hope this document helps you.
 
     
 
-- To start the application, just run its main method
+- For while, to start the application, just run its main method
 
 - The **Postman JSON Collection file (v2.1)** can be found at: `src\main\resources` 
 

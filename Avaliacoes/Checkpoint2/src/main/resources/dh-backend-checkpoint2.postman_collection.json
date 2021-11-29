@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Se\",\r\n    \"email\": \"felipe@email.com\",\r\n    \"admissionDate\": \"2021-11-27T09:00:00.511Z\",\r\n    \"major\": \"Ortodontist\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Silva\",\r\n    \"email\": \"felipe@email.com\",\r\n    \"admissionDate\": \"2021-11-27T09:00:00.511Z\",\r\n    \"major\": \"Od\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -72,7 +72,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/dentists/list/3",
+					"raw": "http://localhost:8080/dentists/list/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -81,7 +81,7 @@
 					"path": [
 						"dentists",
 						"list",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Felipe\",\r\n    \"lastname\": \"Los Angeles\",\r\n    \"admissionDate\": \"2021-11-27T10:00:00.511+00:00\",\r\n    \"email\": \"losangeles@gmail.com.br\"\r\n}",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Los Angeles\",\r\n    \"admissionDate\": \"2021-11-27T10:00:00.511+00:00\",\r\n    \"email\": \"losangeles@gmail.com.br\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -131,7 +131,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/dentists/delete/2",
+					"raw": "http://localhost:8080/dentists/delete/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -140,7 +140,7 @@
 					"path": [
 						"dentists",
 						"delete",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -153,7 +153,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Mo\",\r\n    \"email\": \"felicio@gmail.com\",\r\n    \"registeringDate\": \"2021-11-27T14:00:00.511Z\",\r\n    \"address\":{\r\n        \"state\": \"São Paulo\",\r\n        \"city\": \"São José dos rios\",\r\n        \"neighborhood\": \"Jardim de Rios\",\r\n        \"street\": \"five\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"Silva\",\r\n    \"email\": \"fesilva@gmail.com\",\r\n    \"registeringDate\": \"2021-11-27T14:00:00.511Z\",\r\n    \"address\":{\r\n        \"state\": \"São Paulo\",\r\n        \"city\": \"São José dos rios\",\r\n        \"neighborhood\": \"Jardim de Rios\",\r\n        \"street\": \"five\"\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -247,7 +247,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"New york\",\r\n    \"email\": \"newyork@gmail.com\",\r\n    \"registeringDate\": \"2021-11-27T15:23:00.511Z\",\r\n    \"address\":{\r\n        \"state\": \"New york\",\r\n        \"city\": \"New york\",\r\n        \"neighborhood\": \"New york\",\r\n        \"street\": \"New york\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Fe\",\r\n    \"lastname\": \"New york\",\r\n    \"email\": \"newyork@gmail.com\",\r\n    \"registeringDate\": \"2021-11-27T15:23:00.511Z\",\r\n    \"address\":{\r\n        \"state\": \"NY\",\r\n        \"city\": \"New york\",\r\n        \"neighborhood\": \"New york\",\r\n        \"street\": \"New york\"\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -279,7 +279,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/patients/delete/2",
+					"raw": "http://localhost:8080/patients/delete/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -288,7 +288,136 @@
 					"path": [
 						"patients",
 						"delete",
-						"2"
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POSTAPPOINTMENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"patient\": {\r\n        \"id\": 1\r\n    },\r\n    \"dentist\": {\r\n        \"id\": 1\r\n    },\r\n    \"dateTime\": \"2021-11-30T09:00:00.511Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/appointments/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appointments",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETALLAPPOINTMENTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/appointments/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appointments",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETAPPOINTMENTBYID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/appointments/list/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appointments",
+						"list",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATEAPPOINTMENT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"appointment_id\": 1,\r\n    \"patient\": {\r\n        \"id\": 2\r\n    },\r\n    \"dentist\": {\r\n        \"id\": 2\r\n    },\r\n    \"dateTime\": \"2021-11-30T09:00:00.511Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/appointments/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appointments",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETEAPPOINTMENT",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/appointments/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appointments",
+						"delete",
+						"1"
 					]
 				}
 			},

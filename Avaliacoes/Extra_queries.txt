@@ -1,3 +1,0 @@
-//
-//    @OneToMany(mappedBy = "dentist", fetch = FetchType.LAZY)
-//    private Set<PatientEntity> patients = new HashSet<>();

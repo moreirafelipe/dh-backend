@@ -89,8 +89,11 @@ public class AppointmentController {
     @PutMapping("/update")
     public ResponseEntity update (@RequestBody AppointmentEntity appointment){
         Optional<AppointmentEntity> appointmentEntity = appointmentService.findById(appointment.getAppointment_id());
-        Optional<PatientEntity> patientEntity = patientService.findById(appointment.getPatient().getId());
-        Optional<DentistEntity> dentistEntity = dentistService.findById(appointment.getDentist().getId());
+        Optional<PatientEntity> patientEntity = Optional.ofNullable(appointment.getPatient());
+        Optional<DentistEntity> dentistEntity = Optional.ofNullable(appointment.getDentist());
+
+//        Optional<PatientEntity> patientEntity = patientService.findById(appointment.getPatient().getId());
+//        Optional<DentistEntity> dentistEntity = dentistService.findById(appointment.getDentist().getId());
 
         //Setting 404 returns
         if(appointmentEntity.isEmpty()){

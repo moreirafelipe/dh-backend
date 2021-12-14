@@ -78,9 +78,13 @@ public class DentistController{
 
         try {
             //Setting 200 Return
-            ResponseEntity response = ResponseEntity.ok(dentistService.update(dentist));
             logger.info("Dentist updated successfully!");
-            return response;
+            return ResponseEntity.ok(dentistService.update(dentist));
+
+        } catch(IllegalArgumentException ex) {
+            logger.error("Incorrect object! This endpoint only accepts JSON objects!");
+            throw new IllegalDataException("Incorrect object! This endpoint only accepts JSON objects!");
+
         } catch (Exception ex) {
             logger.error("Incorrect data informed. Please, check the exception message and try again!");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());

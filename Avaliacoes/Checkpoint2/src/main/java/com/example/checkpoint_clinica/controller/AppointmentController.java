@@ -1,5 +1,6 @@
 package com.example.checkpoint_clinica.controller;
 
+import com.example.checkpoint_clinica.exceptionhandler.IllegalDataException;
 import com.example.checkpoint_clinica.persistence.entities.AppointmentEntity;
 import com.example.checkpoint_clinica.persistence.entities.DentistEntity;
 import com.example.checkpoint_clinica.persistence.entities.PatientEntity;
@@ -92,9 +93,6 @@ public class AppointmentController {
         Optional<PatientEntity> patientEntity = Optional.ofNullable(appointment.getPatient());
         Optional<DentistEntity> dentistEntity = Optional.ofNullable(appointment.getDentist());
 
-//        Optional<PatientEntity> patientEntity = patientService.findById(appointment.getPatient().getId());
-//        Optional<DentistEntity> dentistEntity = dentistService.findById(appointment.getDentist().getId());
-
         //Setting 404 returns
         if(appointmentEntity.isEmpty()){
             logger.error("Couldn't update the appointment because there's no appointment registered with this ID");
@@ -114,6 +112,10 @@ public class AppointmentController {
             ResponseEntity response = ResponseEntity.ok(appointmentService.update(appointment));
             logger.info("Appointment updated successfully!");
             return response;
+        } catch (IllegalDataException ex) {
+            logger.error("Incorrect object! This endpoint only accepts JSON objects!");
+            throw new IllegalDataException("Incorrect object! This endpoint only accepts JSON objects!");
+
         } catch (Exception ex) {
             logger.error("Incorrect data informed. Please, check the exception message and try again!");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());

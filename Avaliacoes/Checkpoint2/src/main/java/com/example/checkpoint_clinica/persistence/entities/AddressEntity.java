@@ -13,8 +13,7 @@ import javax.validation.constraints.Size;
 public class AddressEntity {
 
     @Id
-    @SequenceGenerator(name = "addresses_sequence", sequenceName = "addresses_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "addresses_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private Integer id;
 

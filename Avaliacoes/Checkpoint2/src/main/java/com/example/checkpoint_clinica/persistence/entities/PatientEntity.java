@@ -14,8 +14,7 @@ import java.util.Date;
 public class PatientEntity {
 
     @Id
-    @SequenceGenerator(name = "patients_sequence", sequenceName = "patients_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "patients_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private Integer id;
 

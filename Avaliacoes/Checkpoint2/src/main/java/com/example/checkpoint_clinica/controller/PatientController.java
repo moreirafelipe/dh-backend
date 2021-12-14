@@ -1,5 +1,6 @@
 package com.example.checkpoint_clinica.controller;
 
+import com.example.checkpoint_clinica.exceptionhandler.IllegalDataException;
 import com.example.checkpoint_clinica.persistence.entities.PatientEntity;
 import com.example.checkpoint_clinica.services.impl.PatientServiceImpl;
 import org.apache.logging.log4j.LogManager;
@@ -80,6 +81,11 @@ public class PatientController {
             ResponseEntity response = ResponseEntity.ok(patientService.update(patient));
             logger.info("Patient updated successfully!");
             return response;
+            //Setting 200 Return
+        } catch (IllegalArgumentException ex) {
+            logger.error("Incorrect object! This endpoint only accepts JSON objects!");
+            throw new IllegalDataException("Incorrect object! This endpoint only accepts JSON objects!");
+
         } catch (Exception ex) {
             logger.error("Incorrect data informed. Please, check the exception message and try again!");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());

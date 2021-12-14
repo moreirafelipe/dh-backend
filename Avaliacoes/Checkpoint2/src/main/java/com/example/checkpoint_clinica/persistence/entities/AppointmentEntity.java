@@ -15,8 +15,7 @@ import java.util.Date;
 public class AppointmentEntity {
 
     @Id
-    @SequenceGenerator(name = "appointments_sequence", sequenceName = "appointments_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "appointments_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private Integer appointment_id;
 

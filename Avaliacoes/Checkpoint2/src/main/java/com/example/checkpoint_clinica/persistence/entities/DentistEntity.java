@@ -13,8 +13,7 @@ import java.util.Date;
 public class DentistEntity {
 
     @Id
-    @SequenceGenerator(name = "dentists_sequence", sequenceName = "dentists_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "dentists_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private Integer id;
 

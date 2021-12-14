@@ -70,7 +70,7 @@ public class PatientController {
 
         Optional<PatientEntity> patientEntity = patientService.findById(patient.getId());
 
-        //Setting 404 return
+        //Setting 404 returns
         if(patientEntity.isEmpty()) {
             logger.error("Couldn't update because there's no patient registered with this ID");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Couldn't update because there's no patient registered with this ID");
